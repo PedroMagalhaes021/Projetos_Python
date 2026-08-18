@@ -23,5 +23,3 @@ if __name__ == "__main__":
     caminho = 'C:/Users/aluno/Desktop/Python/aula03/manipulando_arquivo/nomes.txt'
     escrita()
     leitura()
-    
-                
