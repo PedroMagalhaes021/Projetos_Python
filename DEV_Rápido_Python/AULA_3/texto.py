@@ -30,6 +30,16 @@ def manipulando_texto(txt):
     print(txt.title())
     print(txt.swapcase())
 
+def retirada():
+    nome=str(input('DIGITE SEU NOME: '))
+    print(f"olá, {nome}!")
+    print(f'olá, {nome.strip()}!')
+    print(f"olá, {nome}!")
+    print(f'olá, {nome.strip()}!')  
+
+    print(nome.strip())
+    print(nome.lstrip())    
+
 if __name__ =="__main__":
 
     recebe1 = "Nossa Aula Manipulando String."
@@ -39,3 +49,4 @@ if __name__ =="__main__":
     usando_find(recebe1)
     usando_len(recebe1)
     manipulando_texto(recebe1)
+    retirada()
