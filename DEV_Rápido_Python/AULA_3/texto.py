@@ -1,0 +1,33 @@
+def usando_len(lenzinho:str):
+    print(len(lenzinho))
+
+def usando_count(plr:str):
+    print(plr.count("a"))
+    print(plr.count("a",5,30))
+
+def usando_find(passando_find:str):
+
+    print(passando_find.find("Aula"))
+    print(passando_find.find("Python"))
+    print('String' in passando_find )
+    print("Pedro" in passando_find)
+
+def usando_replace(rcbd:str):
+    novo_txt = rcbd.replace("Manipulando","Trabalhando com")
+    print(novo_txt)
+    print(rcbd)
+    
+    print(rcbd.startswith("Nossa"))
+    print(rcbd.startswith("Aula"))
+    print(rcbd.endswith("Aula"))
+    print(rcbd.endswith("."))
+
+if __name__ =="__main__":
+
+    recebe1 = "Nossa Aula Manipulando String."
+
+    usando_replace(recebe1)
+    usando_count(recebe1)
+    usando_find(recebe1)
+    usando_len(recebe1)
+
