@@ -22,6 +22,14 @@ def usando_replace(rcbd:str):
     print(rcbd.endswith("Aula"))
     print(rcbd.endswith("."))
 
+def manipulando_texto(txt):
+
+    print(txt.lower())
+    print(txt.upper())
+    print(txt.capitalize())
+    print(txt.title())
+    print(txt.swapcase())
+
 if __name__ =="__main__":
 
     recebe1 = "Nossa Aula Manipulando String."
@@ -30,4 +38,4 @@ if __name__ =="__main__":
     usando_count(recebe1)
     usando_find(recebe1)
     usando_len(recebe1)
-
+    manipulando_texto(recebe1)
