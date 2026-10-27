@@ -1,5 +1,5 @@
 import tkinter as tk 
-from tkinter as tk
+from tkinter as ttk
 
 class EventoApp:
     def __init__(self,raiz):
