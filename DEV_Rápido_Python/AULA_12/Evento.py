@@ -12,3 +12,8 @@ class EventoApp:
 
     def clicado(self):
         self.label.config(text = "Botão clicado!")
+
+if __name__ == "__main__":
+    raiz = tk.Tk()
+    EventoApp(raiz)
+    raiz.mainloop()
