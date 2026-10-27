@@ -19,5 +19,5 @@ def constroi_label(texto: str = "Padrão"):
 
 if __name__ == "__main__":
     janela = tk.Tk()
-    constroi_label("QUEM SABE PYTHON É VIADO!!!")
+    constroi_label("Olá bem vindo ao Python!!")
     janela.mainloop()
